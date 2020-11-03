@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+   body {
+    background-color: #ECEBEB; 
+    font-family: Verdana, sans-serif; 
+    font-size: 100%;
+    }
+    header{
+        background-color: #C0C0C0 ;
+        padding: 50px;
+    }
+    #top-page{
+    position: relative;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    }
+    #top-page ul{
+        padding-left: 300px;
+    }
+    #top-page h1{
+        padding-left: 30px;
+    }
+   p,ul,li,td {
+    color: black; 
+    }
+    #video {
+        text-align: center;
+    }
+    footer{
+        background-color: lightblue;
+        color: black;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        padding-top:5px;
+        height:20px;
+        }
+    h2 {
+        color: rgb(38, 126, 209);
+       }
+       li { 
+       padding : 0 0.5em; 
+       font-size: 100%;
+       color : white;
+       }
+       #menu, #menu ul{
+       padding:0;
+       margin:0;
+       list-style:none;
+       
+       }
+       #menu li{
+       display:inline-block;
+       position:relative;
+       /*border-radius:8px 8px 8px 8px;*/
+       }
+       #menu ul li{
+       display:inherit;
+       border-radius:0;
+       }
+       #menu ul li:hover{
+       border-radius:0;
+       }
+       #menu ul{
+       position:absolute;
+       z-index: 1000;
+       max-height:0;
+       left: 0;
+       right: 0;
+       overflow:hidden;
+       transition: .3s all .3s;
+       }
+       #menu li:hover ul{
+       max-height:15em;
+       }
+       /* background des liens menus */
+       #menu li:first-child{
+       background-color: lightblue;
+       }
+       #menu li:nth-child(2){
+       background-color: lightblue;
+       }
+       #menu li:last-child{
+       background-color: lightblue;
+       }
+       /* background des liens menus au survol */
+       #menu li:first-child:hover, #menu li:first-child li:hover{
+       background: grey ;
+       }
+       #menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
+       background:grey;
+       }
+       #menu li:last-child:hover, #menu li:last-child li:hover{
+       background:grey;
+       }
+       /* les a href */
+       #menu a{
+       text-decoration:none;
+       display:block;
+       padding:8px 32px;
+       color: black;
+       font-family:arial;
+       }
+       #menu ul a{
+       padding:8px 0;
+       }
+       #menu li:hover li a{
+       color: black;
+       text-transform:inherit;
+       }
+       #menu li:hover a, #menu li li:hover a{
+       color: white;
+       }
+        #formations h2{
+            text-align: start;
+            color: rgb(38, 126, 209);
+        }
+        #listebac{
+            display: block;
+        }
+        #listebac a{
+            color: black;
+            text-decoration: none;
+        }
+        #listebac a:hover{
+            color: cornflowerblue;
+        }
+        #postbac h2{
+            text-align: start;
+            color: rgb(38, 126, 209);
+        }
+        #listepostbac li{
+            display: block;
+            color: black;
+        }
+
+    
